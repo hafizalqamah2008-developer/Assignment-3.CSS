@@ -1,0 +1,98 @@
+body{
+    background-image: url(../Assignment-2/Assets/WhatsApp\ Image\ 2025-11-08\ at\ 17.30.57_bdf0238d.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0.616);
+    padding: 0px 20px;
+}
+
+.menu{
+    display: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+li:hover{
+    color: rgba(40, 201, 255, 0.753);
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin: 150px 20px;
+}
+
+.icon{
+    text-align: center;
+    font-size: 50px;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.473);
+    text-align: left;
+    padding: 40px;
+    width: 200px;
+    height: 300px;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.623);
+    opacity: 0.8;
+    height: 25px;
+    width: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .card{
+        width: 370px;
+        height: 200px;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 425px) {
+    .menu{
+        display: block;
+    }
+
+    ul{
+        display: none;
+    }
+
+    .card{
+        height: 270px;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
